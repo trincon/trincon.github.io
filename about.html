@@ -1,0 +1,81 @@
+<!-- STARTER WEBSITE -->
+<!-- STARTER WEBSITE -->
+<style>
+
+.image{
+    background-image: url("img/building.jpg");
+}
+
+#first{
+    background-color: #f7cea3;
+}
+
+</style>
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Devy D. Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="stylefyle.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/9fcf5a3414.js"></script>
+
+</head>
+<body>
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id = "navbar-font"> <!--navigation bar using bootstrap-->
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+       <ul class="navbar-nav">
+         <li class="nav-item active">
+           <a class="nav-link" href="./index.html">home<span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="./about.html">about</a>
+         </li>
+
+         <li class="nav-item">
+           <a class="nav-link" href="./resume.html">resume</a>
+         </li>
+
+         <li class="nav-item">
+           <a class="nav-link" href="./projects.html">projects</a>
+         </li>
+
+       </ul>
+     </div>
+    </nav>
+
+    <div class="image">
+        <div class="text">
+            <h1>Tatiana Rincon</h1>
+            <h3>trincon@tampabay.rr.com</h3>
+            <h3>###</h3>
+            <h3>GN FL</h3>
+            <p>
+                <button type = "button" class = "btn btn-outline-light" onclick ="smoothScroll(document.getElementById('first'))">content</button> <!-- from bootstrap-->
+            </p>
+          </div>
+    </div>
+
+     <div id = "first" class = "post">
+        <h1>About me</h1>
+
+        <p id = "paragraph-post">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        </p>
+
+        <a href = "https://www.spotify.com"><i class = "fa fa-spotify fa-2x" aria-hidden = "true"></i></a> <!-- repeat for other symbols like github linkedin-->
+
+    </div>
+
+</body>

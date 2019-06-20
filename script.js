@@ -1,3 +1,10 @@
+
+
+//git status
+//git add .
+//git commit -m "some comment"
+//git push
+
 window.smoothScroll = function(target) {
     var scrollContainer = target;
     do {
@@ -23,7 +30,3 @@ window.smoothScroll = function(target) {
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
 
-//git status
-//git add .
-//git commit -m "some comment"
-//git push
